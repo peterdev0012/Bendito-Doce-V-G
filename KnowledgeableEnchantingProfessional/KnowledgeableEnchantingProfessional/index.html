@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bendito Doce V&G - Catálogo de Doces</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Bendito Doce V&G</h1>
+                <p>Os melhores doces artesanais da região!</p>
+            </header>
+
+            <main>
+                <section class="produtos-section">
+                    <h2>Doces Tradicionais</h2>
+                    <div id="produtos" class="produtos-grid"></div>
+                </section>
+
+                <section class="produtos-section">
+                    <h2>Doces Recheados</h2>
+                    <div id="doces-recheados" class="produtos-grid"></div>
+                </section>
+
+                <section class="produtos-section">
+                    <h2>Caixinhas Especiais</h2>
+                    <div id="caixinhas-especiais" class="produtos-grid"></div>
+                </section>
+
+                <section class="carrinho-section">
+                    <h2>Seu Carrinho</h2>
+                    <div class="carrinho">
+                        <ul id="lista-carrinho"></ul>
+                        <div class="total-container">
+                            <strong
+                                >Total: R$ <span id="total">0.00</span></strong
+                            >
+                        </div>
+                        <button id="finalizar" class="btn-finalizar">
+                            📱 Finalizar pelo WhatsApp
+                        </button>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
